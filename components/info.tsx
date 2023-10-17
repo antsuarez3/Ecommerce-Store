@@ -1,6 +1,6 @@
 'use client'
 
-import { ShoppingBag } from 'lucide-react'
+import { ShoppingCart } from 'lucide-react'
 
 import { Product } from '@/types'
 import Currency from '@/components/ui/currency'
@@ -36,7 +36,7 @@ const Info: React.FC<InfoProps> = ({ data }) => {
       <div className='mt-10 flex items-center gap-x-3'>
         <Button className='flex items-center gap-x-2'>
           Add To Cart
-          <ShoppingBag />
+          <ShoppingCart />
         </Button>
       </div>
     </div>

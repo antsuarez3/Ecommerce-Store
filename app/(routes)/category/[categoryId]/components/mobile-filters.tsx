@@ -10,12 +10,12 @@ import IconButton from '@/components/ui/icon-button'
 
 import Filter from './filter'
 
-interface MobileFilterProps {
+interface MobileFiltersProps {
   sizes: Size[]
   colors: Color[]
 }
 
-const MobileFilter: React.FC<MobileFilterProps> = ({ sizes, colors }) => {
+const MobileFilters: React.FC<MobileFiltersProps> = ({ sizes, colors }) => {
   const [open, setOpen] = useState(false)
 
   const onOpen = () => setOpen(true)
@@ -57,4 +57,4 @@ const MobileFilter: React.FC<MobileFilterProps> = ({ sizes, colors }) => {
   )
 }
 
-export default MobileFilter
+export default MobileFilters
