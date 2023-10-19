@@ -1,10 +1,10 @@
 import getBillboard from '@/actions/get-billboard'
 import getProducts from '@/actions/get-products'
-import Billboard from '@/components/ui/billboard'
 import ProductList from '@/components/product-list'
+import Billboard from '@/components/ui/billboard'
 import Container from '@/components/ui/container'
 
-export const revalidation = 0
+export const revalidate = 0
 
 const HomePage = async () => {
   const products = await getProducts({ isFeatured: true })
